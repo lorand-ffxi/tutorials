@@ -1,0 +1,20 @@
+h1, h2, h3 {
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    width: 95%;
+}
+
+li {
+	margin-bottom: 40px;
+	/*border: 1px solid #D1D1E0;*/
+}
+
+.code {
+	font-family: Monospace;
+	padding: 20px 20px 20px 20px;
+}
