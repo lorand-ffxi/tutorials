@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>GearSwap Tutorial</title>
+	<link rel="stylesheet" type="text/css" href="tutorial.css" />
+</head>
+<body>
+	<h1>GearSwap Tutorial</h1>
+	<ul>
+		<li><a href="#prep">Prepare Folder Permissions</a></li>
+		<li><a href="#dl">Download Core GearSwap Files</a></li>
+	</ul>
+	<hr/>
+	
+	<h2 id="prep">Prepare Folder Permissions</h2>
+	<ol>
+		<li><img src="images/gearswap/prep_01.png" /><div>Navigate to your Windower installation (usually C:\Program Files (x86)\Windower4).  Right-click the Windower4 folder, and then click "Properties".</div></li>
+		<li><img src="images/gearswap/prep_02.png" /><div>Click on the "Security" tab on the top, then click the "Edit..." button.</div></li>
+		<li><img src="images/gearswap/prep_03.png" /><div>Click the "Users" group name, then click the box under "Allow" for "Full control".</div></li>
+		<li><img src="images/gearswap/prep_04.png" /><div>Click "OK".</div></li>
+		<li><img src="images/gearswap/prep_05.png" /><div>Click "OK" again.  It is now possible to edit files in the Windower folder without being an administrator.  This will be important later when we are editing addon files.</div></li>
+	</ol>
+	<hr/>
+	
+	<h2 id="dl">Download Core GearSwap Files</h2>
+	<ol>
+		<li>Click <a href="https://github.com/lorand-ffxi/gearswap">this link</a> to visit Lorand's GearSwap page on GitHub.</li>
+		<li><img src="images/gearswap/dl_01.png" /><div>On the right side, click the "Download ZIP" button to download all of the GearSwap files.</div></li>
+		<li><img src="images/gearswap/dl_02.png" /><div>Click "Save File".</div></li>
+		<li><img src="images/gearswap/dl_03.png" /><div>Choose a location to save the file, then click "Save".</div></li>
+		<li><img src="images/gearswap/dl_04.png" /><div>Navigate to the location where the file was saved, then right-click and extract the contents of the file.</div></li>
+		<li><img src="images/gearswap/move_01.png" /><div>Open the file, and select (hold down the [ctrl] key to select multiple files at once) core_components.lua, default.lua, defaults.lua, mappings.lua, set_operations.lua, spell_utilities.lua, and utility_functions.lua.  Right-click one of the selected files, and click "Copy".</div></li>
+		<li><img src="images/gearswap/move_02.png" /><div>Navigate to the folder where Windower is installed, then to the addons/GearSwap/data folder.  Paste the files into this folder.</div></li>
+		<li><img src="images/gearswap/move_03.png" /><div>Go back to the folder that we copied those files from, and open the Templates folder.  Select one or more files to copy.</div></li>
+		<li><img src="images/gearswap/move_04.png" /><div>Paste them in the same folder as the other files that we pasted.</div></li>
+		<li><img src="images/gearswap/move_05.png" /><div>Rename the template file to include your character's name instead of "Template".</div></li>
+		<li><img src="images/gearswap/move_06.png" /><div>Double-click the file to open it.</div></li>
+		<li><img src="images/gearswap/move_07.png" /><div>A dialogue may come up because Windows doesn't recognize the file type.  Click "Select a program from a list of installed programs", then click "OK".</div></li>
+		<li><img src="images/gearswap/move_08.png" /><div>If Notepad++ is not in the list provided, click "Browse...".  (If you do not have Notepad++ installed, I highly recommend that you download and install it from <a href="http://notepad-plus-plus.org/">here</a>)</div></li>
+		<li><img src="images/gearswap/move_09.png" /><div>Navigate to the folder where Notepad++ is installed (usually C:\Program Files (x86)\Notepad++\), click notepad++.exe, and then click "Open".</div></li>
+		<li><img src="images/gearswap/move_10.png" /><div>Click "OK".</div></li>
+		<li><img src="images/gearswap/edit_01.png" /><div>The file will open, and you can now edit it.</div></li>
+		<li>When you log in to FFXI, or if you're already logged in and type "//gs reload", the {character name}_{job}_gear.lua file will be loaded.</li>
+	</ol>
+	
+	<hr/>
+	<div id="footer">
+		<p>All FFXI content and images &copy; 2002-2015 SQUARE ENIX CO., LTD.</p>
+		<p>FINAL FANTASY is a registered trademark of Square Enix Co., Ltd..</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Addon Installation Tutorial</title>
+	<link rel="stylesheet" type="text/css" href="tutorial.css" />
+</head>
+<body>
+	<h1>Addon Installation Tutorial</h1>
+	<ul>
+		<li><a href="#prep">Prepare Folder Permissions</a></li>
+		<li><a href="#dl">Download Addon Files</a></li>
+		<li><a href="#move">Move Addon Files to the Proper Location</a></li>
+	</ul>
+	<hr/>
+	
+	<h2 id="prep">Prepare Folder Permissions</h2>
+	<ol>
+		<li><img src="images/gearswap/prep_01.png" /><div>Navigate to your Windower installation (usually C:\Program Files (x86)\Windower4).  Right-click the Windower4 folder, and then click "Properties".</div></li>
+		<li><img src="images/gearswap/prep_02.png" /><div>Click on the "Security" tab on the top, then click the "Edit..." button.</div></li>
+		<li><img src="images/gearswap/prep_03.png" /><div>Click the "Users" group name, then click the box under "Allow" for "Full control".</div></li>
+		<li><img src="images/gearswap/prep_04.png" /><div>Click "OK".</div></li>
+		<li><img src="images/gearswap/prep_05.png" /><div>Click "OK" again.  It is now possible to edit files in the Windower folder without being an administrator.  This will be important later when we are editing addon files.</div></li>
+	</ol>
+	<hr/>
+	
+	<h2 id="dl">Download Addon Files</h2>
+	<ol>
+		<li>Click <a href="https://github.com/lorand-ffxi">this link</a> to visit Lorand's page on GitHub.</li>
+		<li><img src="images/addons/download_01.png" /><div>Click on the "addons" repository to find my smaller addons.</div></li>
+		<li><img src="images/addons/download_02.png" /><div>For this example, we'll install the StratagemCounter addon.  Click the StratagemCounter folder.</div></li>
+		<li><img src="images/addons/download_03.png" /><div>This one only contains one file.  Click on it.</div></li>
+		<li><img src="images/addons/download_04.png" /><div>Click the "Raw" button to see the raw file.  GitHub's default view adds some formatting and line numbers.</div></li>
+		<li><img src="images/addons/download_05.png" /><div>On the raw view, right-click on a spot on the page, and choose "Save Page As..."</div></li>
+		<li><img src="images/addons/download_06.png" /><div>We'll save it in the Downloads folder.</div></li>
+	</ol>
+	<hr/>
+	
+	<h2 id="move">Move Addon Files to the Proper Location</h2>
+	<ol>
+		<li><img src="images/addons/move_01.png" /><div>Open Windows Explorer (double-click on Computer on your desktop), and navigate to C:\Program Files (x86)\Windower4\addons.  Right-click on the addons folder, and choose "New" then "Folder".</div></li>
+		<li><img src="images/addons/move_02.png" /><div>Name the new folder "StratagemCounter", to match the name of the main lua file that we downloaded for this addon.</div></li>
+		<li><img src="images/addons/move_03.png" /><div>After typing the name, hit [Enter] on your keyboard to save the new name.</div></li>
+		<li><img src="images/addons/move_04.png" /><div>Navigate to your Downloads folder, and copy the StratagemCounter.lua file that we downloaded earlier.</div></li>
+		<li><img src="images/addons/move_05.png" /><div>Navigate back to the folder that we created for it, and paste it inside.</div></li>
+		<li><img src="images/addons/move_06.png" /><div>The file should now be in ..\Windower4\addons\ in a folder with the same name as the addon's main lua file.  For addons that include multiple files, those other files go in the same folder.</div></li>
+		<li>To reiterate, when installing the StratagemCounter addon, its final location should be C:\Program Files (x86)\Windower4\addons\StratagemCounter\StratagemCounter.lua</li>
+		<li>In FFXI, you can load StratagemCounter by typing (no quotes) "//lua load stratagemcounter", and you can unload it by typing "//lua unload stratagemcounter".</li>
+	</ol>
+	
+	<hr/>
+	<div id="footer">
+		<p>All FFXI content and images &copy; 2002-2015 SQUARE ENIX CO., LTD.</p>
+		<p>FINAL FANTASY is a registered trademark of Square Enix Co., Ltd..</p>
+	</div>
+</body>
+</html>

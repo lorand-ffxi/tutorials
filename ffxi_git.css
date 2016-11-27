@@ -9,7 +9,7 @@ img {
     max-width: 95%;
 }
 
-li {
+ol > li {
 	margin-bottom: 40px;
     padding: 5px;
 	border: 1px solid #D1D1E0;
