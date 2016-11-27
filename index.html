@@ -9,45 +9,54 @@
 	
 	<h2>Installing Git</h2>
 	<ol>
-		<li><img src="git_install/screenshot_2016-11-23_17-37-52.png" /><div></div></li>
-		<li><img src="git_install/screenshot_2016-11-23_17-38-01.png" /><div></div></li>
-		<li><img src="git_install/screenshot_2016-11-23_17-38-05.png" /><div></div></li>
-		<li><img src="git_install/screenshot_2016-11-23_17-38-20.png" /><div></div></li>
-		<li><img src="git_install/screenshot_2016-11-23_17-38-24.png" /><div></div></li>
-		<li><img src="git_install/screenshot_2016-11-23_17-38-42.png" /><div></div></li>
-		<li><img src="git_install/screenshot_2016-11-23_17-40-00.png" /><div></div></li>
-		<li><img src="git_install/screenshot_2016-11-23_17-40-15.png" /><div></div></li>
-		<li><img src="git_install/screenshot_2016-11-23_17-40-30.png" /><div></div></li>
-		<li><img src="git_install/screenshot_2016-11-23_17-40-34.png" /><div></div></li>
-		<li><img src="git_install/screenshot_2016-11-23_17-41-57.png" /><div></div></li>
+		<li><img src="git_install/screenshot_2016-11-23_17-37-52.png" /><div>Run the installer for Git. Click "Yes" if you get a User Account Control popup.</div></li>
+		<li><img src="git_install/screenshot_2016-11-23_17-38-01.png" /><div>Click "Next" to accept the license agreement.</div></li>
+		<li><img src="git_install/screenshot_2016-11-23_17-38-05.png" /><div>The default install location is fine; click "Next".</div></li>
+		<li><img src="git_install/screenshot_2016-11-23_17-38-20.png" /><div>Make sure the "Windows Explorer integration" and "Git Bash Here" boxes are checked before clicking "Next".</div></li>
+		<li><img src="git_install/screenshot_2016-11-23_17-38-24.png" /><div>Click "Next".</div></li>
+		<li><img src="git_install/screenshot_2016-11-23_17-38-42.png" /><div>I suggest selecting "Use Git from Git Bash only", then you can click "Next".</div></li>
+		<li><img src="git_install/screenshot_2016-11-23_17-40-00.png" /><div>I suggest selecting "Checkout as-is, commit Unix-style line endings", then you can click "Next".</div></li>
+		<li><img src="git_install/screenshot_2016-11-23_17-40-15.png" /><div>Make sure that "Use MinTTY" is selected, then you can click "Next".</div></li>
+		<li><img src="git_install/screenshot_2016-11-23_17-40-30.png" /><div>The first two extra options are fine to select, but the third isn't necessary. Click "Install" to continue.</div></li>
+		<li><img src="git_install/screenshot_2016-11-23_17-40-34.png" /><div>Wait for Git to be installed.</div></li>
+		<li><img src="git_install/screenshot_2016-11-23_17-41-57.png" /><div>You can uncheck the boxes and click "Finish".</div></li>
 	</ol>
 	<hr/>
 	
 	<h2>Prepare Folder Permissions (if necessary)</h2>
+    <div>This section is only necessary if you haven't edited your Windower folder permissions to make addon management easier in the past.</div>
 	<ol>
-		<li><img src="git_clone/01_fix_dir_perms_1.png" /><div></div></li>
-		<li><img src="git_clone/01_fix_dir_perms_2.png" /><div></div></li>
-		<li><img src="git_clone/01_fix_dir_perms_3.png" /><div></div></li>
+		<li><img src="git_clone/01_fix_dir_perms_1.png" /><div>Right-click your Windower folder, and click Properties.</div></li>
+		<li><img src="git_clone/01_fix_dir_perms_2.png" /><div>On the "Security" tab, click "Edit".</div></li>
+		<li><img src="git_clone/01_fix_dir_perms_3.png" /><div>Click "Users", then make sure the box next to "Full control" is checked.  Click "Apply" then "OK".</div></li>
     </ol>
     <hr/>
     
 	<h2>Cloning My Repositories</h2>
 	<ol>
-		<li><img src="git_clone/02_backup_1.png" /><div></div></li>
-		<li><img src="git_clone/02_backup_2.png" /><div></div></li>
-		<li><img src="git_clone/03_clone_01.png" /><div></div></li>
-		<li><img src="git_clone/03_clone_02.png" /><div></div></li>
-		<li><img src="git_clone/03_clone_03.png" /><div></div></li>
-		<li><img src="git_clone/03_clone_04.png" /><div></div></li>
-		<li><img src="git_clone/03_clone_05.png" /><div></div></li>
-		<li><img src="git_clone/03_clone_06.png" /><div></div></li>
-		<li><img src="git_clone/03_clone_07.png" /><div></div></li>
-		<li><img src="git_clone/03_clone_08.png" /><div></div></li>
-		<li><img src="git_clone/03_clone_09.png" /><div></div></li>
-		<li><img src="git_clone/03_clone_10.png" /><div></div></li>
-		<li><img src="git_clone/03_clone_11.png" /><div></div></li>
+		<li><img src="git_clone/02_backup_1.png" /><div>Under GearSwap, rename the existing data folder.  Cloning the repository won't work if the folder already exists, and this has the added benefit of creating a backup of your current files.</div></li>
+		<li><img src="git_clone/02_backup_2.png" /><div>Give your old "data" folder a new name, and press [Enter] to accept it.</div></li>
+		<li><img src="git_clone/03_clone_01.png" /><div>Right-click on your GearSwap folder, and click "Git Bash Here" to open a terminal in that folder.</div></li>
+		<li><img src="git_clone/03_clone_02.png" /><div>You can find the URL to provide to for each clone operation by navigating to the relevant repository, clicking "Clone or download", then copying the provided URL.</div></li>
+		<li><img src="git_clone/03_clone_03.png" /><div>In the terminal, you would type "git clone ", then paste the URL.  To save the content to a specific sub-directory, you can provide the name of the subdirectory (it cannot be an existing directory) to target after the URL.</div></li>
+		<li><img src="git_clone/03_clone_04.png" /><div>In this case, the full command you should enter: <p class="code">git clone https://github.com/lorand-ffxi/gearswap.git data</p><p>Press [Enter] to execute the command.  After it runs, you can type "exit" or close the window with the X as usual.</p></div></li>
+		<li><img src="git_clone/03_clone_05.png" /><div>Inside your Windower folder, navigate to the "addons" folder.  Inside that folder, navigate to the "libs" folder, and open a terminal in it (right-click "libs" and select "Git Bash Here").</div></li>
+		<li><img src="git_clone/03_clone_06.png" /><div><p class="code">git clone https://github.com/lorand-ffxi/lor_libs.git lor</p></div></li>
+		<li><img src="git_clone/03_clone_08.png" /><div>Example: The "lor" folder now exists under Windower/addons/libs.</div></li>
+		<li><img src="git_clone/03_clone_09.png" /><div>For HealBot, open a terminal in the base "addons" folder.</div></li>
+		<li><img src="git_clone/03_clone_10.png" /><div><p class="code">git clone https://github.com/lorand-ffxi/HealBot.git</p><p>Note: In this case, we don't need to provide a specific folder name, because it defaults to HealBot.</p></div></li>
 	</ol>
 	<hr/>
-	
+    
+	<h2>Updating</h2>
+    <div>
+        <p>As an end-user, the primary reason for you to take the above steps is to make it easier to update my addons in the future.</p>
+        <p>Instead of needing to go through all of the steps of downloading, extracting, and pasting new files, Git does the heavy lifting of checking to see which files need to be updated.</p>
+        <p>To update, open the Git Bash terminal in the folder of the addon that you want to update.  This is exactly the same as the above procedure, but now, you want to open the terminal inside the sub-directories that were created by the clone operation.  For example, instead of opening a terminal in the "GearSwap" directory, you would open it in the "data" directory inside "GearSwap".</p>
+        <p>In the terminal you opened, enter the following:</p>
+        <p class="code">git pull</p>
+        <p>When you press [Enter], it will check the server and update any files that need to be updated.  If everything is already up to date, it will say, "Already up-to-date."</p>
+        <p>After running, you can close the terminal by clicking the X in the corner, or entering "exit"</p>
+    </div>
 </body>
 </html>

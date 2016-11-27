@@ -6,15 +6,18 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-    width: 95%;
+    max-width: 95%;
 }
 
 li {
 	margin-bottom: 40px;
-	/*border: 1px solid #D1D1E0;*/
+    padding: 5px;
+	border: 1px solid #D1D1E0;
 }
 
 .code {
 	font-family: Monospace;
 	padding: 20px 20px 20px 20px;
+    background: #000000;
+    color: #00ff00;
 }
